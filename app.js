@@ -93,7 +93,34 @@ document.addEventListener('DOMContentLoaded', () => {
         event.target.classList.remove('dragging');
       }
     });
+    function login() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Bijvoorbeeld, controleer tegen gebruikersnaam en wachtwoord
+  
+      if (username === "jouw_gebruikersnaam" && password === "jouw_wachtwoord") {
+        showAlert("Inloggen gelukt!", "success");
+        // Voer hier de acties uit na succesvol inloggen
+      } else {
+        showAlert("Ongeldige gebruikersnaam of wachtwoord", "error");
+      }
+    }
+  
+    function showAlert(message, type) {
+      const alertBox = document.createElement("div");
+      alertBox.className = `alert ${type}`;
+      alertBox.textContent = message;
+  
+      document.body.appendChild(alertBox);
+  
+      // Verwijder de melding na enkele seconden
+      setTimeout(() => {
+        document.body.removeChild(alertBox);
+      }, 3000); // Melding verdwijnt na 3 seconden (3000 milliseconden)
+    }
   });
+
   
   
   
