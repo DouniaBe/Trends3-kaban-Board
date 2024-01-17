@@ -1,0 +1,314 @@
+{
+    "questions": [
+        {
+            "question": "Wat is een besturingssysteem?",
+            "options": [
+                "Een programma om tekst te verwerken",
+                "Software die de hardware van een computer aanstuurt",
+                "Een apparaat dat gegevens opslaat",
+                "Een netwerkprotocol"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "Wat is een algoritme?",
+            "options": [
+                "Een reeks instructies om een taak uit te voeren",
+                "Een bestandssysteem",
+                "Een programmeertaal",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Wat is een database?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een besturingssysteem",
+                "Een computerprogramma",
+                "Een beveiligingsprotocol"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Wat is een compiler?",
+            "options": [
+                "Een netwerkapparaat",
+                "Een programma dat broncode omzet in uitvoerbare code",
+                "Een bestandssysteem",
+                "Een programmeertaal"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "Wat is een variabele?",
+            "options": [
+                "Een getal dat niet kan veranderen",
+                "Een stuk code dat een taak uitvoert",
+                "Een container voor het opslaan van gegevens",
+                "Een besturingssysteem"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een boolean?",
+            "options": [
+                "Een programmeertaal",
+                "Een bestandssysteem",
+                "Een waarde die waar of onwaar kan zijn",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een array?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkprotocol",
+                "Een computerprogramma",
+                "Een beveiligingsprotocol"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Wat is een functie?",
+            "options": [
+                "Een reeks instructies om een taak uit te voeren",
+                "Een apparaat dat gegevens opslaat",
+                "Een programma om tekst te verwerken",
+                "Een container voor het opslaan van gegevens"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "Wat is een pointer?",
+            "options": [
+                "Een netwerkapparaat",
+                "Een programma dat broncode omzet in uitvoerbare code",
+                "Een stuk code dat een taak uitvoert",
+                "Een waarde die het geheugenadres van een variabele bevat"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een klasse?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een besturingssysteem",
+                "Een computerprogramma",
+                "Een blauwdruk voor het creëren van objecten"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een recursie?",
+            "options": [
+                "Een programmeertaal",
+                "Een bestandssysteem",
+                "Een techniek waarbij een functie zichzelf aanroept",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een stack?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkprotocol",
+                "Een computerprogramma",
+                "Een gegevensstructuur waarbij het laatst toegevoegde element als eerste wordt verwijderd"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een queue?",
+            "options": [
+                "Een reeks instructies om een taak uit te voeren",
+                "Een apparaat dat gegevens opslaat",
+                "Een programma om tekst te verwerken",
+                "Een gegevensstructuur waarbij het eerst toegevoegde element als eerste wordt verwijderd"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een hashfunctie?",
+            "options": [
+                "Een netwerkapparaat",
+                "Een programma dat broncode omzet in uitvoerbare code",
+                "Een stuk code dat een taak uitvoert",
+                "Een functie die een invoer omzet in een vaste grootte uitvoer"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een recursieve functie?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een besturingssysteem",
+                "Een computerprogramma",
+                "Een functie die zichzelf aanroept"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een interface?",
+            "options": [
+                "Een programmeertaal",
+                "Een bestandssysteem",
+                "Een contract dat de methoden en eigenschappen van een klasse definieert",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een abstracte klasse?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkprotocol",
+                "Een computerprogramma",
+                "Een klasse die niet kan worden geïnstantieerd en als basis dient voor andere klassen"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een recursieve datastructuur?",
+            "options": [
+                "Een reeks instructies om een taak uit te voeren",
+                "Een apparaat dat gegevens opslaat",
+                "Een programma om tekst te verwerken",
+                "Een datastructuur die een verwijzing naar zichzelf bevat"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een linked list?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkprotocol",
+                "Een computerprogramma",
+                "Een gegevensstructuur waarbij elk element een verwijzing heeft naar het volgende element"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een binary search tree?",
+            "options": [
+                "Een programmeertaal",
+                "Een bestandssysteem",
+                "Een boomgebaseerde gegevensstructuur waarbij elk knooppunt maximaal twee kinderen heeft",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een heap?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkapparaat",
+                "Een computerprogramma",
+                "Een gegevensstructuur waarbij het grootste (of kleinste) element altijd bovenaan staat"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een hash table?",
+            "options": [
+                "Een reeks instructies om een taak uit te voeren",
+                "Een apparaat dat gegevens opslaat",
+                "Een programma om tekst te verwerken",
+                "Een gegevensstructuur die snelle toegang tot gegevens mogelijk maakt via een sleutel-waarde mapping"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een stack overflow?",
+            "options": [
+                "Een netwerkprotocol",
+                "Een programma dat broncode omzet in uitvoerbare code",
+                "Een bestandssysteem",
+                "Een situatie waarin de stack van een programma vol raakt door te veel recursieve aanroepen"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een deadlock?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een besturingssysteem",
+                "Een computerprogramma",
+                "Een situatie waarin twee of meer processen elkaar blokkeren en geen van hen kan doorgaan"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een raceconditie?",
+            "options": [
+                "Een programmeertaal",
+                "Een bestandssysteem",
+                "Een situatie waarin de uitvoer van een programma afhankelijk is van de volgorde van de uitvoering van meerdere threads",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een deadlock?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkprotocol",
+                "Een computerprogramma",
+                "Een situatie waarin twee of meer processen elkaar blokkeren en geen van hen kan doorgaan"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een raceconditie?",
+            "options": [
+                "Een reeks instructies om een taak uit te voeren",
+                "Een apparaat dat gegevens opslaat",
+                "Een programma om tekst te verwerken",
+                "Een situatie waarin de uitvoer van een programma afhankelijk is van de volgorde van de uitvoering van meerdere threads"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een deadlock?",
+            "options": [
+                "Een netwerkapparaat",
+                "Een programma dat broncode omzet in uitvoerbare code",
+                "Een bestandssysteem",
+                "Een situatie waarin twee of meer processen elkaar blokkeren en geen van hen kan doorgaan"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een raceconditie?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een besturingssysteem",
+                "Een computerprogramma",
+                "Een situatie waarin de uitvoer van een programma afhankelijk is van de volgorde van de uitvoering van meerdere threads"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Wat is een deadlock?",
+            "options": [
+                "Een programmeertaal",
+                "Een bestandssysteem",
+                "Een situatie waarin twee of meer processen elkaar blokkeren en geen van hen kan doorgaan",
+                "Een grafische gebruikersinterface"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "Wat is een raceconditie?",
+            "options": [
+                "Een verzameling van gegevens",
+                "Een netwerkprotocol",
+                "Een programma om tekst te verwerken",
+                "Een situatie waarin de uitvoer van een programma afhankelijk is van de volgorde van de uitvoering van meerdere threads"
+            ],
+            "answer": "3"
+        }
+    ]
+}

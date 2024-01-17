@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login</h2>
-    <form id="login-form">
-      <label for="username">Gebruikersnaam:</label>
+  <div id="loginContainer">
+    <form id="loginForm">
+      <h2>Login</h2>
+      <label for="username">Username:</label>
       <input type="text" id="username" required>
 
-      <label for="password">Wachtwoord:</label>
+      <label for="password">Password:</label>
       <input type="password" id="password" required>
 
-      <button type="button" onclick="login()">Login</button>
+      <button type="button" id="loginButton">Login</button>
     </form>
   </div>
   <script src="app.js"></script>
