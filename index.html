@@ -50,11 +50,28 @@
 
         <div id="taskModal" class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
+                <span class="close" onclick="closeModal()">&times;</span>
                 <h2>Add Task</h2>
-                <label for="taskName">Task Name:</label>
-                <input type="text" id="taskName" placeholder="Enter task name">
-                <button id="addTaskBtn">Add Task</button>
+                <label for="taskName">medewerkers:</label>
+                <input type="text" id="medewerkers" placeholder="Enter yout name">
+
+                <!-- Voeg deze velden toe aan het modal-formulier -->
+                <label for="projectName">Project-Task Name:</label>
+                <input type="text" id="projectName" placeholder="Enter project name">
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" placeholder="Enter subject">
+
+                <label for="description">Description:</label>
+                <textarea id="description" placeholder="Enter description"></textarea>
+
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate">
+
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate">
+
+                <button id="addTaskBtn" onclick="addTask(event)">Add Task</button>
             </div>
         </div>
         <div id="questionModal" class="modal">

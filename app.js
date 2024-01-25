@@ -21,9 +21,7 @@ function showApp() {
 
     // Show app container
     document.getElementById('appContainer').style.display = 'block';
-}
 
-document.addEventListener('DOMContentLoaded', async () => {
     const columns = document.querySelectorAll('.column');
     const modal = document.getElementById('taskModal');
     const addTaskBtn = document.getElementById('addTaskBtn');
@@ -72,24 +70,52 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function addTask(e) {
         e.preventDefault();
-        const taskNameInput = document.getElementById('taskName');
-        const taskName = taskNameInput.value.trim();
 
-        if (taskName !== '') {
-            const newTask = createTask(taskName);
+        const medewerkersInput = document.getElementById('medewerkers');
+        const projectNameInput = document.getElementById('projectName');
+        const subjectInput = document.getElementById('subject');
+        const descriptionInput = document.getElementById('description');
+        const startDateInput = document.getElementById('startDate');
+        const endDateInput = document.getElementById('endDate');
+
+        const medewerkers = medewerkersInput.value.trim();
+        const projectName = projectNameInput.value.trim();
+        const subject = subjectInput.value.trim();
+        const description = descriptionInput.value.trim();
+        const startDate = startDateInput.value;
+        const endDate = endDateInput.value;
+
+        if (medewerkers !== '') {
+            const newTask = createTask(medewerkers, projectName, subject, description, startDate, endDate);
             const backlogColumn = document.getElementById('backlog');
             backlogColumn.appendChild(newTask);
 
-            taskNameInput.value = '';
+            // Reset input fields
+            medewerkersInput.value = '';
+            projectNameInput.value = '';
+            subjectInput.value = '';
+            descriptionInput.value = '';
+            startDateInput.value = '';
+            endDateInput.value = '';
+
             closeModal();
         }
     }
 
-    function createTask(taskName) {
+    function createTask(medewerkers, projectName, subject, description, startDate, endDate) {
         const newTask = document.createElement('div');
         newTask.classList.add('task');
         newTask.draggable = true;
-        newTask.textContent = taskName;
+
+        // Voeg de nieuwe velden toe aan de taak
+        newTask.innerHTML = `
+            <strong>Task Name:</strong> ${medewerkers}<br>
+            <strong>Project Name:</strong> ${projectName}<br>
+            <strong>Subject:</strong> ${subject}<br>
+            <strong>Description:</strong> ${description}<br>
+            <strong>Start Date:</strong> ${startDate}<br>
+            <strong>End Date:</strong> ${endDate}
+        `;
 
         // Set de achtergrondkleur van de taak op de kleur van de lijst
         setTaskColor(newTask, 'backlog');
@@ -173,4 +199,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             notification.remove();
         }, 3000);
     }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
 });
