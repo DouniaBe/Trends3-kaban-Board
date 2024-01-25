@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanban Board</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>Kanban Board</h1>
-    <header>
-    <a href="login.html">Login</a>
+    <div id="loginContainer" class="login-container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
 
-  </header>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
 
-  <button id="addTaskButton">+ Add</button>
+            <button type="button" id="loginButton" onclick="login()">Login</button>
+        </form>
+    </div>
 
-  <div id="app">
-    <div class="column" id="backlog">
-      <h2>Backlog</h2>
-    </div>
-    <div class="column" id="todo">
-      <h2>To-Do</h2>
-    </div>
-    <div class="column" id="in-progress">
-      <h2>In Progress</h2>
-    </div>
-    <div class="column" id="review">
-      <h2>Review</h2>
-    </div>
-    <div class="column" id="done">
-      <h2>Done</h2>
-    </div>
-    <div id="scoreDisplay">Je score: 0</div>
-  </div>
+    <div id="appContainer" style="display: none;">
+        <h1>Kanban Board</h1>
+        <header>
+        </header>
 
-  <div id="taskModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Add Task</h2>
-      <label for="taskName">Task Name:</label>
-      <input type="text" id="taskName" placeholder="Enter task name">
-      <button id="addTaskBtn">Add Task</button>
-    </div>
-  </div>
-  <div id="questionModal" class="modal">
-    <div class="modal-content">
-      <h2>Vraag</h2>
-      <p id="questionText"></p>
-      <div id="choices"></div>
-    </div>
-  </div>
+        <button id="addTaskButton">+ Add</button>
 
-  <footer>
-    <p>&copy; 2023 Your Company</p>
-  </footer>
+        <div id="app">
+            <div class="column" id="backlog">
+                <h2>Backlog</h2>
+            </div>
+            <div class="column" id="todo">
+                <h2>To-Do</h2>
+            </div>
+            <div class="column" id="in-progress">
+                <h2>In Progress</h2>
+            </div>
+            <div class="column" id="review">
+                <h2>Review</h2>
+            </div>
+            <div class="column" id="done">
+                <h2>Done</h2>
+            </div>
+            <div id="scoreDisplay">Je score: 0</div>
+        </div>
 
-  <script src="app.js"></script>
+        <div id="taskModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add Task</h2>
+                <label for="taskName">Task Name:</label>
+                <input type="text" id="taskName" placeholder="Enter task name">
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+        </div>
+        <div id="questionModal" class="modal">
+            <div class="modal-content">
+                <h2>Vraag</h2>
+                <p id="questionText"></p>
+                <div id="choices"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Your Company</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
